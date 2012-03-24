@@ -30,7 +30,10 @@ body.admin-bar .navbar-fixed-top { top: 28px; }
    Primary Content
    ========================================================================== */
 
-#main { }
+#main {
+  margin:0 auto;
+  float:none;
+  }
 
 
 
