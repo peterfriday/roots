@@ -1,3 +1,7 @@
-<div class="well">
+<!--<div class="well">
   <?php dynamic_sidebar('roots-sidebar'); ?>
-</div>
+</div>-->
+
+<?php
+// Silence is golden.
+?>
