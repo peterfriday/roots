@@ -8,7 +8,7 @@
         </div>
         <div class="alert alert-block fade in">
           <a class="close" data-dismiss="alert">&times;</a>
-          <p><?php _e('The page you are looking for might have been removed, had its name changed, or is temporarily unavailable.', 'roots'); ?></p>
+          <p><?php _e('Are you trying to hack my site? Nah, it is probably because of my hacking I broke an old link.  Sorry about that' , 'roots'); ?></p>
         </div>
         <p><?php _e('Please try the following:', 'roots'); ?></p>
         <ul>
