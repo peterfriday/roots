@@ -33,10 +33,10 @@
 /*.row{margin:auto;} */
 .row>[class*="span"],
 .row-fluid>[class*="span"]{float:none;display:block;width:auto;margin:0;}
-.span2{width:100%;} 
+.span2{width:288px;} 
 }
 @media (min-width:768px) and (max-width:979px){
-.row{margin-left:-10px;*zoom:1;}
+.row{margin-left:0px;*zoom:1;}
 .row:before,
 .row:after{display:table;content:"";} 
 .row:after{clear:both;} [class*="span"]{float:left;margin-left:3px;} 
