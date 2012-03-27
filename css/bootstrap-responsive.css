@@ -33,7 +33,7 @@
 .row{margin-left:0;} 
 .row>[class*="span"],
 .row-fluid>[class*="span"]{float:none;display:block;width:auto;margin:0;}
-.span2{width:312px;} 
+.span2{width:306px;} 
 }
 @media (min-width:768px) and (max-width:979px){
 .row{margin-left:-10px;*zoom:1;}
