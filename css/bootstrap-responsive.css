@@ -30,7 +30,7 @@
 @media (min-width:320px) and (max-width:767px){
 .container{width:auto;padding:0 13px;} 
 .row-fluid{width:100%;} 
-.row{margin-left:0;} 
+/*.row{margin:auto;} */
 .row>[class*="span"],
 .row-fluid>[class*="span"]{float:none;display:block;width:auto;margin:0;}
 .span2{width:100%;} 
@@ -41,7 +41,7 @@
 .row:after{display:table;content:"";} 
 .row:after{clear:both;} [class*="span"]{float:left;margin-left:3px;} 
 .span1{width:42px;} 
-.span2{width:312px;} 
+.span2{width:356px;} 
 .span3{width:166px;} 
 .span4{width:228px;} 
 .span5{width:290px;} 
