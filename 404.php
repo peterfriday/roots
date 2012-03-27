@@ -10,7 +10,7 @@
           <a class="close" data-dismiss="alert">&times;</a>
           <p><?php _e('Are you trying to hack my site? Nah, it is probably because of my hacking I broke an old link.  Sorry about that' , 'roots'); ?></p>
         </div>
-        <p><?php _e('Please try the following:', 'roots'); ?></p>
+        <p><?php _e('Try the following:', 'roots'); ?></p>
         <ul>
           <li><?php _e('Check your spelling', 'roots'); ?></li>
           <li><?php printf(__('Return to the <a href="%s">home page</a>', 'roots'), home_url()); ?></li>
