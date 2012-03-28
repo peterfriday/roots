@@ -17,7 +17,12 @@ a:hover,a:active{outline:0;}
 sub,sup{position:relative;font-size:75%;line-height:0;vertical-align:baseline;}
 sup{top:-0.5em;}
 sub{bottom:-0.25em;}
-img{max-width:100%;height:auto;border:0;-ms-interpolation-mode:bicubic;}
+img{max-width:100%;height:auto;margin:3px 0 3px 0;-ms-interpolation-mode:bicubic;}
+a:hover img {border: solid 1px #CCC;
+	-moz-box-shadow: 1px 1px 5px #999;
+	-webkit-box-shadow: 1px 1px 5px #999;
+        box-shadow: 1px 1px 5px #999;
+}
 button,input,select,textarea{margin:0;font-size:100%;vertical-align:middle;}
 button,input{*overflow:visible;line-height:normal;}
 button::-moz-focus-inner,input::-moz-focus-inner{padding:0;border:0;}
@@ -28,13 +33,13 @@ textarea{overflow:auto;vertical-align:top;}
 .clearfix{*zoom:1;}.clearfix:before,.clearfix:after{display:table;content:"";}
 .clearfix:after{clear:both;}
 body{margin:0;font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;font-size:13px;line-height:18px;color:#333333;background-color:#ffffff;}
-a{color:#0088cc;text-decoration:none;}
-a:hover{color:#005580;text-decoration:underline;}
+a{color:#333;text-decoration:none;}
+a:hover{color:#696969;text-decoration:none;}
 .row{margin-left:0px;*zoom:1;}.row:before,.row:after{display:table;content:"";}
 .row:after{clear:both;}
 [class*="span"]{float:left;margin:3px;}
 .span1{width:60px;}
-.span2{width:369px;}
+.span2{width:369px; margin:0 3px 0 3px}
 .span3{width:220px;}
 .span4{width:300px;}
 .span5{width:380px;}
@@ -80,13 +85,13 @@ p{margin:0 0 9px;font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;font-si
 .lead{margin-bottom:18px;font-size:20px;font-weight:200;line-height:27px;}
 h1,h2,h3,h4,h5,h6{margin:0;font-weight:bold;color:#333333;text-rendering:optimizelegibility;}h1 small,h2 small,h3 small,h4 small,h5 small,h6 small{font-weight:normal;color:#999999;}
 h1{font-size:30px;line-height:36px;}h1 small{font-size:18px;}
-h2{font-size:24px;line-height:36px;}h2 small{font-size:18px;}
+h2{font-size:27px;line-height:36px;}h2 small{font-size:18px;}
 h3{line-height:27px;font-size:18px;}h3 small{font-size:14px;}
 h4,h5,h6{line-height:18px;}
 h4{font-size:14px;}h4 small{font-size:12px;}
 h5{font-size:12px;}
 h6{font-size:11px;color:#999999;text-transform:uppercase;}
-.page-header{padding-bottom:17px;margin:18px 0;border-bottom:1px solid #eeeeee;}
+.page-header{padding: 40px 0 8px 0; margin: 8px 0;border-bottom:1px solid #eeeeee;}
 .page-header h1{line-height:1;}
 ul,ol{padding:0;margin:0 0 9px 25px;}
 ul ul,ul ol,ol ol,ol ul{margin-bottom:0;}

@@ -13,7 +13,7 @@ body { }
 #banner { }
 
 /* Fixed Topbar Navigation */
-body { padding-top: 60px; }
+body { padding-top: 50px; }
 body.admin-bar .navbar-fixed-top { top: 28px; }
 
 

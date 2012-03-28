@@ -3,10 +3,10 @@
   <?php roots_post_before(); ?>
     <article <?php post_class() ?> id="post-<?php the_ID(); ?>">
     <?php roots_post_inside_before(); ?>
-      <header>
+      <div class="page-header">
         <h1 class="entry-title"><?php the_title(); ?></h1>
-        <?php roots_entry_meta(); ?>
-      </header>
+        <?php /*roots_entry_meta();*/ ?>
+      </div>
       <div class="entry-content">
         <?php the_content(); ?>
       </div>

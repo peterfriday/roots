@@ -4,7 +4,7 @@
     <?php roots_main_before(); ?>
       <div id="main" class="<?php echo MAIN_CLASSES; ?>" role="main">
         <?php roots_loop_before(); ?>
-        <?php get_template_part('loop', 'page'); ?>
+        <?php get_template_part('loop'/*'page'*/); ?>
         <?php roots_loop_after(); ?>
       </div><!-- /#main -->
     <?php roots_main_after(); ?>
