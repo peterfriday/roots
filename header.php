@@ -7,7 +7,7 @@
   <meta charset="utf-8">
 
   <title><?php wp_title('|', true, 'right'); bloginfo('name'); ?></title>
-
+  <script src="/mint/?js" type="text/javascript"></script>
   <meta name="viewport" content="width=device-width">
 
   <?php roots_stylesheets(); ?>
