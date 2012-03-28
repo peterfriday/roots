@@ -141,7 +141,7 @@
 }
 @media (min-width:1200px){.row{margin-left:0px;*zoom:1;}
 .row:before,.row:after{display:table;content:"";} 
-.row:after{clear:both;} [class*="span"]{float:left;margin:3px;} 
+.row:after{clear:both;} [class*="span"]{float:left;margin:0 3px 0 3px;} 
 .span1{width:70px;} 
 .span2{width:369px;} 
 .span3{width:270px;} 
